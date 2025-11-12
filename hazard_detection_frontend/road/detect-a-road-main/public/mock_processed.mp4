@@ -1,0 +1,3 @@
+# This is a placeholder for the mock processed video
+# In a real deployment, you would place an actual MP4 video file here
+# For development, the app will handle the missing file gracefully

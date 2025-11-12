@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test Video Upload</title>
+</head>
+<body>
+  <h2>Upload Video to Flask Backend</h2>
+  <input type="file" id="videoFile" accept="video/*" />
+  <br/><br/>
+  <input type="text" id="lat" placeholder="Latitude" />
+  <input type="text" id="lon" placeholder="Longitude" />
+  <br/><br/>
+  <button id="uploadBtn">Upload & Detect</button>
+
+  <script>
+    document.getElementById("uploadBtn").addEventListener("click", async () => {
+      const fileInput = document.getElementById("videoFile");
+      const latInput = document.getElementById("lat");
+      const lonInput = document.getElementById("lon");
+
+      if (!fileInput.files.length) {
+        alert("Select a video file first!");
+        return;
+      }
+
+      const videoFile = fileInput.files[0];
+      const lat = latInput.value;
+      const lon = lonInput.value;
+
+      const formData = new FormData();
+      formData.append("video", videoFile); // MUST match backend key
+      if (lat && lon) {
+        formData.append("lat", lat);
+        formData.append("lon", lon);
+      }
+
+      try {
+        const response = await fetch("http://127.0.0.1:5000/detect", {
+          method: "POST",
+          body: formData
+        });
+
+        if (!response.ok) {
+          const error = await response.json();
+          alert("Error: " + JSON.stringify(error));
+          return;
+        }
+
+        const blob = await response.blob();
+        const url = URL.createObjectURL(blob);
+
+        // Show processed video
+        const videoEl = document.createElement("video");
+        videoEl.src = url;
+        videoEl.controls = true;
+        videoEl.style.width = "80%";
+        document.body.appendChild(videoEl);
+
+        alert("Upload successful! Video processed.");
+      } catch (err) {
+        console.error(err);
+        alert("Upload failed: " + err.message);
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,24 +1,26 @@
-# Virtual Environment 
-venv/ 
-env/ 
-.venv/ 
- 
-# Python 
-__pycache__/ 
-*.pyc 
-*.pyo 
- 
-# Uploads and Results 
-static/uploads/ 
-static/results/ 
- 
-# IDE 
-.vscode/ 
-.idea/ 
- 
-# OS 
-.DS_Store 
-Thumbs.db 
- 
-# Environment 
-.env 
+# Python
+__pycache__/
+*.pyc
+
+# Environments
+env/
+venv/
+ENV/
+*.env
+
+# Node
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Models — optional
+*.onnx
+*.tflite
+*.pb
+*.pt

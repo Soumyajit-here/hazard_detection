@@ -1,2 +1,24 @@
-"venv/"  
-"hazard_detection_backend/venv/"  
+# Virtual Environment 
+venv/ 
+env/ 
+.venv/ 
+ 
+# Python 
+__pycache__/ 
+*.pyc 
+*.pyo 
+ 
+# Uploads and Results 
+static/uploads/ 
+static/results/ 
+ 
+# IDE 
+.vscode/ 
+.idea/ 
+ 
+# OS 
+.DS_Store 
+Thumbs.db 
+ 
+# Environment 
+.env 

@@ -1,0 +1,236 @@
+[
+  {
+    "filename": "video2.mp4",
+    "latitude": 22.6467376,
+    "longitude": 88.3767301,
+    "timestamp": "2025-11-27T12:55:03.707711"
+  },
+  {
+    "filename": "video2.mp4",
+    "latitude": 22.6327889,
+    "longitude": 88.3663796,
+    "timestamp": "2025-11-27T13:59:09.522781"
+  },
+  {
+    "filename": "video3.mp4",
+    "latitude": 22.6327889,
+    "longitude": 88.3663796,
+    "timestamp": "2025-11-27T14:12:59.653006"
+  },
+  {
+    "filename": "video3.mp4",
+    "latitude": 22.6467376,
+    "longitude": 88.3767301,
+    "timestamp": "2025-11-27T14:28:05.435790"
+  },
+  {
+    "filename": "video2.mp4",
+    "latitude": 22.6467376,
+    "longitude": 88.3767301,
+    "timestamp": "2025-11-27T15:21:47.957774"
+  },
+  {
+    "filename": "video3.mp4",
+    "latitude": 22.6467376,
+    "longitude": 88.3767301,
+    "timestamp": "2025-11-27T16:06:56.755155"
+  },
+  {
+    "filename": "video4.mp4",
+    "latitude": 22.6467376,
+    "longitude": 88.3767301,
+    "timestamp": "2025-11-27T16:40:07.172644"
+  },
+  {
+    "filename": "video2.mp4",
+    "latitude": 22.6467376,
+    "longitude": 88.3767301,
+    "timestamp": "2025-11-27T18:12:48.291459"
+  },
+  {
+    "filename": "video2.mp4",
+    "start_latitude": 22.6328029,
+    "start_longitude": 88.3663924,
+    "timestamp": "2025-11-28T11:06:36.539917",
+    "statistics": {
+      "total_potholes": 22,
+      "distance_km": 0.0,
+      "duration_seconds": 55.20438888888889,
+      "total_frames": 1692,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video2.mp4"
+    }
+  },
+  {
+    "filename": "video3.mp4",
+    "start_latitude": 22.6475919,
+    "start_longitude": 88.3876481,
+    "timestamp": "2025-11-28T13:37:22.239068",
+    "statistics": {
+      "total_potholes": 0,
+      "distance_km": 0.0,
+      "duration_seconds": 22.5225,
+      "total_frames": 675,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video3.mp4"
+    }
+  },
+  {
+    "filename": "video4.mp4",
+    "start_latitude": 22.6475919,
+    "start_longitude": 88.3876481,
+    "timestamp": "2025-11-28T13:56:01.233988",
+    "statistics": {
+      "total_potholes": 0,
+      "distance_km": 0.0,
+      "duration_seconds": 7.199000000000001,
+      "total_frames": 432,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video4.mp4"
+    }
+  },
+  {
+    "filename": "video5.mp4",
+    "start_latitude": 22.6468239,
+    "start_longitude": 88.3876481,
+    "timestamp": "2025-11-29T10:50:37.255960",
+    "statistics": {
+      "total_potholes": 0,
+      "distance_km": 0.0,
+      "duration_seconds": 64.68906666666666,
+      "total_frames": 1941,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video5.mp4"
+    }
+  },
+  {
+    "filename": "video5.mp4",
+    "start_latitude": 22.6468239,
+    "start_longitude": 88.3876481,
+    "timestamp": "2025-11-29T11:07:46.753314",
+    "statistics": {
+      "total_potholes": 0,
+      "distance_km": 0.0,
+      "duration_seconds": 64.68906666666666,
+      "total_frames": 1941,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video5.mp4"
+    }
+  },
+  {
+    "filename": "video2.mp4",
+    "start_latitude": 22.6327993,
+    "start_longitude": 88.3663886,
+    "timestamp": "2025-11-29T15:31:38.121605",
+    "statistics": {
+      "total_potholes": 22,
+      "distance_km": 0.0,
+      "duration_seconds": 55.20438888888889,
+      "total_frames": 1692,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video2.mp4"
+    }
+  },
+  {
+    "filename": "video2.mp4",
+    "start_latitude": 22.6468239,
+    "start_longitude": 88.3876481,
+    "timestamp": "2025-11-29T16:09:04.286606",
+    "statistics": {
+      "total_potholes": 22,
+      "distance_km": 0.0,
+      "duration_seconds": 55.20438888888889,
+      "total_frames": 1692,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video2.mp4"
+    }
+  },
+  {
+    "filename": "video2.mp4",
+    "start_latitude": 22.6468239,
+    "start_longitude": 88.3876481,
+    "timestamp": "2025-11-30T06:04:34.244530",
+    "statistics": {
+      "total_potholes": 1,
+      "distance_km": 0.0,
+      "duration_seconds": 55.20438888888889,
+      "total_frames": 1692,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video2.mp4",
+      "processing_time": 140.30350399017334,
+      "processing_fps": 12.059570515918871
+    }
+  },
+  {
+    "filename": "video2.mp4",
+    "start_latitude": 22.6468239,
+    "start_longitude": 88.3876481,
+    "timestamp": "2025-11-30T07:03:56.493998",
+    "statistics": {
+      "total_potholes": 28,
+      "distance_km": 0.0,
+      "duration_seconds": 55.20438888888889,
+      "total_frames": 1692,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video2.mp4",
+      "processing_time": 381.5510468482971,
+      "processing_fps": 4.434531143280367,
+      "device_used": "cuda"
+    }
+  },
+  {
+    "filename": "video2.mp4",
+    "start_latitude": 22.6328046,
+    "start_longitude": 88.3663898,
+    "timestamp": "2025-11-30T08:38:09.140099",
+    "statistics": {
+      "total_potholes": 28,
+      "distance_km": 0.0,
+      "duration_seconds": 55.20438888888889,
+      "total_frames": 1692,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video2.mp4",
+      "processing_time": 406.9957730770111,
+      "processing_fps": 4.1572913330474375,
+      "device_used": "cuda"
+    }
+  },
+  {
+    "filename": "video5.mp4",
+    "start_latitude": 22.6468239,
+    "start_longitude": 88.3876481,
+    "timestamp": "2025-11-30T08:46:27.117513",
+    "statistics": {
+      "total_potholes": 0,
+      "distance_km": 0.0,
+      "duration_seconds": 64.68906666666666,
+      "total_frames": 1941,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video5.mp4",
+      "processing_time": 430.3650686740875,
+      "processing_fps": 4.510124406657887,
+      "device_used": "cuda"
+    }
+  },
+  {
+    "filename": "video3.mp4",
+    "start_latitude": 22.6468239,
+    "start_longitude": 88.3876481,
+    "timestamp": "2025-11-30T09:05:28.727970",
+    "statistics": {
+      "total_potholes": 0,
+      "distance_km": 0.0,
+      "duration_seconds": 22.5225,
+      "total_frames": 675,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video3.mp4",
+      "processing_time": 996.5293920040131,
+      "processing_fps": 0.6773508191690966,
+      "device_used": "cuda"
+    }
+  },
+  {
+    "filename": "video4.mp4",
+    "start_latitude": 22.6468239,
+    "start_longitude": 88.3876481,
+    "timestamp": "2025-11-30T09:11:08.227452",
+    "statistics": {
+      "total_potholes": 0,
+      "distance_km": 0.0,
+      "duration_seconds": 7.199000000000001,
+      "total_frames": 432,
+      "output_path": "C:\\Users\\soumy\\OneDrive\\Desktop\\hazard_app\\hazard_detection_backend\\static\\results\\processed_video4.mp4",
+      "processing_time": 247.69600653648376,
+      "processing_fps": 1.7440733342480015,
+      "device_used": "cuda"
+    }
+  }
+]

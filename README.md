@@ -13,7 +13,7 @@ Poor road conditions are a major contributor to:
 - Traffic congestion
 - Road accidents
 
-Manual reporting systems are slow and inconsistent. This project aims to provide an **automated, scalable, and visual solution** for detecting and tracking road hazards.
+Manual reporting systems are slow and inconsistent. This project aims to provide an **automated, scalable, and visual solution** for detecting and tracking road hazards
 
 ---
 
